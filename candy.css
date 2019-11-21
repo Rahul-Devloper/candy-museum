@@ -1,0 +1,19 @@
+body{
+    background:#f5d9d5 ;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+#main-navbar{
+    font-size: 1.32rem;
+    font-weight: 100;
+}
+#main-navbar .navbar-brand{
+    color:#ea1c2c;
+    font-size: 1.4rem;
+}
+#main-navbar #navlinks{
+    color: blanchedalmond;
+}
+#main-navbar #navlinks :hover{
+    color: #ea1c2c;
+}
