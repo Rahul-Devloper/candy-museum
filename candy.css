@@ -17,3 +17,24 @@ body{
 #main-navbar #navlinks :hover{
     color: #ea1c2c;
 }
+.navbar-toggler{
+    background-color: #ab393917;
+}
+.navbar-dark .navbar-toggler {
+    border-color: #dc3d35d1;
+
+}
+#heading h1{
+    font-weight: 100;
+    font-size: 4rem;
+}
+@media (max-width:1200px) {
+    #heading h1{
+        font-weight:100;
+        font-size:3rem;
+        color:red;
+    }
+}
+
+
+
