@@ -29,7 +29,7 @@
          
         </nav>
         <section class="container-fluid px-0">
-            <div class="row align-items-center">
+            <div class="row align-items-center content">
                 <div class="col-lg-6">
                     <div id="heading"  class=" mt-5 text-center text-white d-none d-lg-block">
                             <h1 class="">Museum of Candy</h1>
@@ -46,12 +46,65 @@
             </div>
         </section>
         <section class="container-fluid">
-            <div class="col-lg-6">
-                <img  class="img-fluid" src="C:\Users\Admin\Downloads\mae-mu-_C5zsV_p-YI-unsplash.jpg" alt="">
+            <div class="row text-center content">
+                        <div class="col-md-6 order-2 order-md-1">
+                            <img  class="img-fluid" src="C:\Users\Admin\Downloads\mae-mu-_C5zsV_p-YI-unsplash.jpg" alt="">
+                        </div>
+                        <div class="col-md-6 order-1 order-md-2">
+                            <div class="row justify-content-center">
+                                <div class="col-10">
+                                        <h2>MUSEUM OF CANDY</h2>
+                                        <i class="fas fa-candy-cane d-none d-md-inline"></i>
+                                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sit vitae reiciendis similique ut, delectus excepturi. Doloremque impedit ducimus eum, veritatis deleniti voluptatem recusandae at non nostrum! Quo officiis tempora dolor impedit ipsum, eos est illo consectetur velit fugit sint numquam ab? Porro nisi exercitationem adipisci tempora inventore aspernatur eos!</p>
+                                </div>
+                            </div>
+                        </div>
             </div>
-            <div></div>
+            
         </section>
+        <section class="container-fluid">
+                <div class="row text-center content">
+                            
+                            <div class="col-md-6 ">
+                                <div class="row justify-content-center">
+                                    <div class="col-10">
+                                            <h2>MUSEUM OF CANDY</h2>
+                                            <i class="fas fa-candy-cane d-none d-md-inline"></i>
+                                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sit vitae reiciendis similique ut, delectus excepturi. Doloremque impedit ducimus eum, veritatis deleniti voluptatem recusandae at non nostrum! Quo officiis tempora dolor impedit ipsum, eos est illo consectetur velit fugit sint numquam ab? Porro nisi exercitationem adipisci tempora inventore aspernatur eos!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 ">
+                                    <img  class="img-fluid" src="C:\Users\Admin\Downloads\amy-shamblen-61rFb1qnu1k-unsplash.jpg" alt="">
+                                </div>
+                </div>
+                <section class="container-fluid">
+                        <div class="row text-center content">
+                                    <div class="col-md-6 order-2 order-md-1">
+                                        <img  class="img-fluid" src="C:\Users\Admin\Downloads\mong-bui-xdJN-7PZs5o-unsplash.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-6 order-1 order-md-2">
+                                        <div class="row justify-content-center">
+                                            <div class="col-10">
+                                                    <h2>MUSEUM OF CANDY</h2>
+                                                    <i class="fas fa-candy-cane d-none d-md-inline"></i>
+                                                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sit vitae reiciendis similique ut, delectus excepturi. Doloremque impedit ducimus eum, veritatis deleniti voluptatem recusandae at non nostrum! Quo officiis tempora dolor impedit ipsum, eos est illo consectetur velit fugit sint numquam ab? Porro nisi exercitationem adipisci tempora inventore aspernatur eos!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div>
+                
+            </section>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        $(function(){
+            $(document).scroll(function(){
+                var $nav = $("#main-navbar");
+                $nav.toggleClass("scrolled",$(this).scrollTop() > $nav.height());
+            )};
+        });
+    </script>
     </body>
+</html>

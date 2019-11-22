@@ -3,6 +3,21 @@ body{
     font-family: 'Nunito Sans', sans-serif;
 
 }
+h2{
+    color:#ea1c2c ;
+    font-weight: 100;
+    
+}
+p{
+    color: #ec6393;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+.content{
+    margin-bottom: 100px;
+    align-items: center;
+}
 #main-navbar{
     font-size: 1.32rem;
     font-weight: 100;
