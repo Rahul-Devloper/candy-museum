@@ -14,6 +14,10 @@ p{
     font-size: 1.125rem;
     line-height: 2;
 }
+i{
+    color: #ec6393;
+
+}
 .content{
     margin-bottom: 100px;
     align-items: center;
@@ -43,6 +47,8 @@ p{
     font-weight: 100;
     font-size: 4rem;
 }
+
+
 @media (max-width:1200px) {
     #heading h1{
         font-weight:100;
