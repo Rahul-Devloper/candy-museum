@@ -18,6 +18,9 @@ i{
     color: #ec6393;
 
 }
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(173, 36, 36, 0.5);
+}
 .content{
     margin-bottom: 100px;
     align-items: center;
